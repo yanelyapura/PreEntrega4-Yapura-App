@@ -1,0 +1,70 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Electrónica",
+            "description": "Los últimos gadgets y dispositivos electrónicos."
+        },
+        {
+            "id": 2,
+            "name": "Ropa",
+            "description": "Moda y comodidad para todos los días."
+        },
+        {
+            "id": 3,
+            "name": "Hogar",
+            "description": "Todo lo que necesitas para tu espacio personal."
+        }
+    ],
+    "products": [
+        {
+            "id": 101,
+            "categoryId": 1,
+            "title": "Smartphone de Alta Gama",
+            "description": "Último modelo, con la mejor cámara y procesador del mercado.",
+            "price": 999.99,
+            "imageUrl": "https://storage.comprasmartphone.com/smartphones/apple-iphone-15-pro-max.png",
+            "discountPercentage": 10
+        },
+        {
+            "id": 102,
+            "categoryId": 1,
+            "title": "Laptop Ligera y Potente",
+            "description": "Ideal para profesionales y estudiantes, con gran autonomía de batería.",
+            "price": 1299.99,
+            "imageUrl": "https://leasein.pe/wp-content/uploads/2023/01/lg-gram-1-_1_-1024x576.webp"
+        },
+        {
+            "id": 201,
+            "categoryId": 2,
+            "title": "Camiseta Algodón Orgánico",
+            "description": "Confortable y sostenible, disponible en varios colores.",
+            "price": 29.99,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSCD8FJz8eUiXLH4piGWg99NaeN-ktNODxfz047z6cWv45hjY1FvX-I291x5pFnJ3ply8&usqp=CAU"
+        },
+        {
+            "id": 202,
+            "categoryId": 2,
+            "title": "Jeans Clásicos",
+            "description": "Resistentes y cómodos, un must en tu armario.",
+            "price": 59.99,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXOI5TrDbZkzkwpKy6hAJWyY4pRPXpU1M8DOJrPFXDIugVOvSN5f9_t1aoUaCbBixdq0c&usqp=CAU"
+        },
+        {
+            "id": 301,
+            "categoryId": 3,
+            "title": "Set de Cuchillos de Cocina",
+            "description": "Incluye 5 cuchillos esenciales para cualquier chef en casa.",
+            "price": 79.99,
+            "imageUrl": "data:image/jpeg;base64,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"
+        },
+        {
+            "id": 302,
+            "categoryId": 3,
+            "title": "Robot Aspirador Inteligente",
+            "description": "Mantén tu hogar limpio sin esfuerzo, programable y silencioso.",
+            "price": 499.99,
+            "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjn8LdX8HEe0cuKJF9baqPowYZ1zLGlZweQd54ehMFQCHG1GCwb2DBALbUL2eIgeNOXpI&usqp=CAU"
+        }
+    ]
+}
